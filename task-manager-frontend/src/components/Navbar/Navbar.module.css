@@ -1,0 +1,83 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem 1.5rem; /* Shrink navbar height by reducing padding */
+  background-color: #f0f0f0;
+  color: #333;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.7);
+  border-radius: 30px;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbarList {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.navbarList li {
+  margin: 0 1rem;
+}
+
+.navbarList a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #333;
+  font-size: 0.9rem; /* Slightly smaller font size */
+  transition: color 0.3s ease;
+}
+
+.navbarList a:hover {
+  color: #007bff;
+}
+
+.navbarList a.active {
+  color: rgb(255, 47, 47);
+}
+
+.search {
+  border: 1px solid #ccc;
+  padding: 0.5rem 1rem; /* Adjust padding for a more compact look */
+  border-radius: 25px; /* More rounded corners */
+  font-size: 1rem; /* Slightly larger font size for readability */
+  background-color: #fff;
+  max-width: 250px; /* Make the search bar wider */
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    border-radius: 0 0 20px 20px;
+  }
+
+  .navbarList {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  .navbarList li {
+    margin: 0.5rem 0;
+  }
+
+  .search {
+    margin-top: 0.75rem;
+    width: 100%;
+  }
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}

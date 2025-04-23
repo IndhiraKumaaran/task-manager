@@ -1,0 +1,115 @@
+    /* Parent container for the task cards */
+    .task-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns per row */
+        gap: 20px; /* Space between cards */
+        justify-items: center; /* Center the cards horizontally */
+        margin-top: 20px;
+        padding: 20px; /* Padding around the container */
+        box-sizing: border-box; /* Ensure padding is included in the width calculation */
+        width: 100%; /* Prevents overflow */
+    }
+
+    /* Individual task card */
+    .task-card {
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 1rem;
+        width: 100%; /* Ensure the card takes full width of the column */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-sizing: border-box; /* Includes padding in width */
+    }
+
+    /* Task header styles */
+    .task-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .task-headline {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    /* Status box styles - Ensuring equal size for all statuses */
+    .task-status {
+        font-weight: 600;
+        padding: 0.5rem 1rem; /* Adjusted padding for consistency */
+        border-radius: 5px;
+        color: white;
+        display: inline-block; /* Keeps the status box in-line and prevents wrapping */
+        min-width: 100px; /* Ensures a minimum width for the status box */
+        text-align: center; /* Center text inside the status box */
+    }
+
+    .task-status.completed {
+        background-color: #28a745; /* Green */
+    }
+
+    .task-status.in-progress {
+        background-color: #ff8c00; /* Brighter orange */
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .task-status.pending {
+        background-color: #dc3545; /* Red */
+    }
+
+    /* Description styles */
+    .task-description {
+        font-size: 1rem;
+        color: #555;
+        margin: 1rem 0;
+    }
+
+    /* Footer styles */
+    .task-footer {
+        margin-top: auto;
+        font-size: 0.875rem;
+        color: #888;
+    }
+
+    .task-deadline {
+        font-weight: 500;
+    }
+
+    /* Tags Styles */
+    .task-tags {
+        display: flex;
+        gap: 10px;
+        margin: 10px 0;
+    }
+
+    .tag {
+        background-color: #007bff;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 0.875rem;
+    }
+
+    /* Button and Dropdown Styles */
+    .task-actions {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .status-select {
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 0.875rem;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+    }
+
+    .status-select:focus {
+        outline: none;
+        border-color: #007bff;
+    }

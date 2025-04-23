@@ -1,0 +1,84 @@
+{
+  "tasks":[
+  {
+    "id": "1",
+    "headline": "Finish Documentation",
+    "description": "Complete the user guide for the project.",
+    "deadline": "2025-04-30",
+    "status": "Completed",
+    "tags": ["Documentation", "User Guide"]
+  },
+  {
+    "id": "2",
+    "headline": "Design UI",
+    "description": "Create the layout for the homepage.",
+    "deadline": "2025-05-05",
+    "status": "In-Progress",
+    "tags": ["Design", "UI"]
+  },
+  {
+    "id": "3",
+    "headline": "Bug Fixes",
+    "description": "Fix bugs reported by the QA team.",
+    "deadline": "2025-04-29",
+    "status": "Completed",
+    "tags": ["Bug Fixes", "QA"]
+  },
+  {
+    "id": "4",
+    "headline": "Setup Backend",
+    "description": "Initialize Express server and connect MongoDB.",
+    "deadline": "2025-05-01",
+    "status": "In-Progress",
+    "tags": ["Backend", "Server Setup"]
+  },
+  {
+    "id": "5",
+    "headline": "Client Feedback Review",
+    "description": "Analyze client feedback and prioritize suggestions.",
+    "deadline": "2025-04-23",
+    "status": "Pending",
+    "tags": ["Feedback", "Client Review"]
+  },
+  {
+    "id": "6",
+    "headline": "Write Unit Tests",
+    "description": "Ensure coverage for all utility functions.",
+    "deadline": "2025-05-03",
+    "status": "Pending",
+    "tags": ["Testing", "Unit Tests"]
+  },
+  {
+    "id": "7",
+    "headline": "Deploy to Staging",
+    "description": "Push current version to staging for team testing.",
+    "deadline": "2025-04-29",
+    "status": "Completed",
+    "tags": ["Deployment", "Staging"]
+  },
+  {
+    "id": "8",
+    "headline": "Create Onboarding Slides",
+    "description": "Prepare slides for new developer onboarding.",
+    "deadline": "2025-05-10",
+    "status": "In-Progress",
+    "tags": ["Onboarding", "Training"]
+  },
+  {
+    "id": "9",
+    "headline": "Integrate Payment Gateway",
+    "description": "Add Razorpay for customer transactions.",
+    "deadline": "2025-05-08",
+    "status": "Pending",
+    "tags": ["Payment", "Razorpay"]
+  },
+  {
+    "id": "10",
+    "headline": "Code Refactoring",
+    "description": "Improve readability and remove unused files.",
+    "deadline": "2025-05-04",
+    "status": "Completed",
+    "tags": ["Code Refactoring", "Cleanup"]
+  }
+]
+}
