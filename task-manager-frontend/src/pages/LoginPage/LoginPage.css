@@ -1,0 +1,119 @@
+/* LoginPage.css */
+
+.container {
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 40px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+}
+
+.header .text {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+
+.underline {
+    width: 60px;
+    height: 4px;
+    background-color: #4b7bec;
+    margin: 10px auto 30px auto;
+    border-radius: 5px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.input img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.input input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.submit-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.submit {
+    padding: 10px 20px;
+    background-color: #4b7bec;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+    width: 100%;
+}
+
+.submit:hover {
+    background-color: #3867d6;
+}
+
+.toggle-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.toggle-text {
+    font-size: 14px;
+    color: #777;
+}
+
+.toggle-link {
+    color: #4b7bec;
+    cursor: pointer;
+    font-weight: bold;
+}
+/* Additional styles for Forgot Password link */
+
+.forgot-password {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #777;
+    cursor: pointer;
+  }
+  
+  .forgot-password span {
+    color: #4b7bec;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
